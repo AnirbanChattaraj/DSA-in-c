@@ -3,8 +3,11 @@
 This repository contains classic recursion-based problems implemented in C.
 The goal of this project is to strengthen core recursion concepts, stack behavior, and problem decomposition for Data Structures & Algorithms (DSA).
 
-📂 Problems Included
+📂 Problems Included:
+
+
 1️⃣ Maze Path Counting
+
 📌 Description
 
 The Maze Path problem calculates the number of ways to reach the destination cell from the starting cell in a grid using recursion.
@@ -30,6 +33,7 @@ Grid traversal
 Exponential (depends on grid size)
 
 2️⃣ Tower of Hanoi
+
 📌 Description
 
 The Tower of Hanoi is a classic mathematical puzzle solved using recursion.
