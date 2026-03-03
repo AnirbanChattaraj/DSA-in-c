@@ -1,88 +1,99 @@
-📌 Maze Path Counting (Recursion in C)
-📖 Overview
+🧠 Recursion Problems in C
 
-This project implements a recursive solution to calculate the total number of possible paths in a grid (maze).
+This repository contains classic recursion-based problems implemented in C.
+The goal of this project is to strengthen core recursion concepts, stack behavior, and problem decomposition for Data Structures & Algorithms (DSA).
 
-The program counts the number of ways to move from the top-left corner (1,1) to the bottom-right corner (n,m) using only:
+📂 Problems Included
+1️⃣ Maze Path Counting
+📌 Description
 
-➡️ Right moves
+The Maze Path problem calculates the number of ways to reach the destination cell from the starting cell in a grid using recursion.
 
-⬇️ Down moves
+🎯 Objective
 
-This is a classic Recursion + Backtracking foundation problem in Data Structures & Algorithms (DSA).
+Given a grid (e.g., 2×2 or NxM), count total possible paths from top-left to bottom-right.
 
-🧠 Problem Statement
-
-Given a grid of size n × m, calculate the total number of unique paths from:
-
-Start: (1,1)
-End: (n,m)
-
-Allowed moves:
-
-Move Right → (cr, cc+1)
-
-Move Down → (cr+1, cc)
-
-🔍 How It Works
-Base Case
-
-When current row and column reach the destination:
-
-(cr == er && cc == ec)
-
-Return 1 because one valid path is found.
-
-Recursive Cases
-
-If on the last row → Can only move Right
-
-If on the last column → Can only move Down
-
-Otherwise → Move both Right and Down
-
-The function adds the total number of paths from both directions.
-
-⏱ Time Complexity
-
-O(2^(n+m)) (Exponential)
-
-Many overlapping subproblems exist.
-
-This can be optimized using Dynamic Programming (Memoization / Tabulation).
-
-🧪 Example
-
-Input:
-
-Enter your rows: 2
-Enter your column: 2
-
-Output:
-
-The total ways 2
-
-Possible Paths:
-
-Right → Down
-
-Down → Right
-
-📚 Concepts Covered
+🧠 Concepts Used
 
 Recursion
 
-Base Condition
+Base case handling
 
-Recursive Tree
+Boundary conditions
 
-Stack Behavior
+Backtracking logic
 
-Path Counting
+Grid traversal
+
+📈 Time Complexity
+
+Exponential (depends on grid size)
+
+2️⃣ Tower of Hanoi
+📌 Description
+
+The Tower of Hanoi is a classic mathematical puzzle solved using recursion.
+
+🎯 Objective
+
+Move n disks from Source rod to Destination rod using a Helper rod, following rules:
+
+Move only one disk at a time
+
+Only top disk can be moved
+
+A larger disk cannot be placed on a smaller disk
+
+🧠 Recursive Strategy
+
+To move n disks:
+
+Move n-1 disks from Source → Helper
+
+Move largest disk from Source → Destination
+
+Move n-1 disks from Helper → Destination
+
+📈 Time Complexity
+2
+𝑛
+−
+1
+2
+n
+−1
+Disks	Moves
+1	1
+2	3
+3	7
+4	15
+
+Time Complexity: O(2ⁿ)
+Space Complexity: O(n) (recursion stack)
+
+🎓 Learning Goals
+
+This repository focuses on:
+
+Understanding recursion deeply
+
+Learning how recursive calls use the stack
+
+Strengthening problem-solving logic
+
+Preparing for DSA topics like trees, backtracking, and divide & conquer
+
+🚀 Future Additions
+
+More recursion problems
+
+Backtracking problems
+
+Tree recursion examples
+
+Pattern recursion
 
 👨‍💻 Author
 
 Anirban Chattaraj
-
-
 C Programming & DSA Practice
