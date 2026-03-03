@@ -82,16 +82,6 @@ Path Counting
 
 Foundation for Dynamic Programming
 
-🚀 Future Improvements
-
-Add Memoization
-
-Convert to Dynamic Programming (Tabulation)
-
-Add Diagonal moves
-
-Print actual paths instead of just counting
-
 👨‍💻 Author
 
 Anirban Chattaraj
