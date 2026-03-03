@@ -80,8 +80,6 @@ Stack Behavior
 
 Path Counting
 
-Foundation for Dynamic Programming
-
 👨‍💻 Author
 
 Anirban Chattaraj
