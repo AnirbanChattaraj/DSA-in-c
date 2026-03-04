@@ -87,15 +87,6 @@ Strengthening problem-solving logic
 
 Preparing for DSA topics like trees, backtracking, and divide & conquer
 
-🚀 Future Additions
-
-More recursion problems
-
-Backtracking problems
-
-Tree recursion examples
-
-Pattern recursion
 
 👨‍💻 Author
 
