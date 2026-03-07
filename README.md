@@ -34,7 +34,7 @@ Exponential (depends on grid size)
 
 2️⃣ Tower of Hanoi
 
-📌 Description
+📌 Description:-
 
 The Tower of Hanoi is a classic mathematical puzzle solved using recursion.
 
