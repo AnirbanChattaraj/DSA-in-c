@@ -14,7 +14,7 @@ The Maze Path problem calculates the number of ways to reach the destination cel
 
 🎯 Objective
 
-Given a grid (e.g., 2×2 or NxM), count total possible paths from top-left to bottom-right.
+Given a grid NxM, count total possible paths from top-left to bottom-right.
 
 🧠 Concepts Used
 
