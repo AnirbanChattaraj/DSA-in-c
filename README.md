@@ -102,9 +102,6 @@ Input:
 Output:
 
 4 3 2 1
-Language
-
-C
 
 👨‍💻 Author
 
