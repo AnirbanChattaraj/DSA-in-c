@@ -75,18 +75,36 @@ Disks	Moves
 Time Complexity: O(2ⁿ)
 Space Complexity: O(n) (recursion stack)
 
-🎓 Learning Goals
+3.Reverse an Array in C
 
-This repository focuses on:
+This program demonstrates how to reverse an array in C using the two-pointer technique.
 
-Understanding recursion deeply
+Description
 
-Learning how recursive calls use the stack
+The program defines a function that reverses an array by swapping elements from the beginning and end until the middle of the array is reached. This approach is efficient and runs in O(n) time with O(1) extra space.
 
-Strengthening problem-solving logic
+Key Concepts
 
-Preparing for DSA topics like trees, backtracking, and divide & conquer
+Arrays in C
 
+Two-pointer technique
+
+Swapping elements
+
+Time and space complexity
+
+Example
+
+Input:
+
+1 2 3 4
+
+Output:
+
+4 3 2 1
+Language
+
+C
 
 👨‍💻 Author
 
