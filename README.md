@@ -158,6 +158,34 @@ Use the **Reversal Algorithm**:
 
 **Time Complexity:** O(n)
 **Space Complexity:** O(1)
+
+6.# Check Duplicate Elements in an Array
+
+### Problem
+
+Determine whether an array contains any **duplicate elements**.
+
+### Example
+
+Input
+
+```
+1 2 3 4 7 5 6
+```
+
+Output
+
+```
+No Duplicate found
+```
+
+### Approach
+
+Use **nested loops** to compare each element with the remaining elements of the array.
+
+**Time Complexity:** O(n²)
+**Space Complexity:** O(1)
+
  
 👨‍💻 Author:-
 
