@@ -127,7 +127,7 @@ Start one pointer at L and another at R, swap the elements, then move the pointe
 Time Complexity: O(n)
 Space Complexity: O(1)
 
-👨‍💻 Author
+👨‍💻 Author:-
 
 Anirban Chattaraj
 C Programming & DSA Practice
