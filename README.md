@@ -127,6 +127,38 @@ Start one pointer at L and another at R, swap the elements, then move the pointe
 Time Complexity: O(n)
 Space Complexity: O(1)
 
+5.# Rotate Array Using Reversal Algorithm
+
+### Problem
+
+Given an array of integers, rotate the array to the **right by k positions**.
+
+### Example
+
+Input
+
+```
+Array: 1 2 3 4 5 6 7
+k = 3
+```
+
+Output
+
+```
+5 6 7 1 2 3 4
+```
+
+### Approach
+
+Use the **Reversal Algorithm**:
+
+1. Reverse the entire array.
+2. Reverse the first `k` elements.
+3. Reverse the remaining `n-k` elements.
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+ 
 👨‍💻 Author:-
 
 Anirban Chattaraj
