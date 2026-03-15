@@ -186,6 +186,34 @@ Use **nested loops** to compare each element with the remaining elements of the 
 **Time Complexity:** O(n²)
 **Space Complexity:** O(1)
 
+7.# Find Missing Element in an Array
+
+### Problem
+
+Given an array containing numbers from **1 to n**, find the **missing number**.
+
+### Example
+
+Input
+
+```
+Array: 1 2 4
+n = 4
+```
+
+Output
+
+```
+Missing Element: 3
+```
+
+### Approach
+
+Calculate the **expected sum** of numbers from `1` to `n` using the formula `n(n+1)/2`, then subtract the sum of array elements.
+
+**Time Complexity:** O(n)
+**Space Complexity:** O(1)
+
  
 👨‍💻 Author:-
 
