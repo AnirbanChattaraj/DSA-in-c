@@ -103,6 +103,30 @@ Output:
 
 4 3 2 1
 
+4.Reverse Subarray (Two Pointer Technique)
+Problem
+
+Given an array of integers, reverse the elements between two indices L and R without changing the rest of the array.
+
+Example
+
+Input
+
+1 2 3 4 5 6 7
+L = 1
+R = 4
+
+Output
+
+1 5 4 3 2 6 7
+Approach
+
+Use the two-pointer technique.
+Start one pointer at L and another at R, swap the elements, then move the pointers toward each other until they meet.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+
 👨‍💻 Author
 
 Anirban Chattaraj
