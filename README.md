@@ -214,6 +214,34 @@ Calculate the **expected sum** of numbers from `1` to `n` using the formula `n(n
 **Time Complexity:** O(n)
 **Space Complexity:** O(1)
 
+7.Matrix Transpose in C
+📌 Description
+
+This program performs the transpose of a 3×3 matrix using C.
+Transpose means converting rows into columns and vice versa.
+
+🔁 What is Transpose?
+
+For a matrix A, the transpose Aᵀ is formed by:
+
+Converting row elements into column elements
+Swapping arr[i][j] with arr[j][i]
+⚙️ Approach
+Take a 3×3 matrix as input
+Swap elements where i ≤ j
+Perform in-place transpose (no extra matrix used)
+💻 Example
+Input
+
+1 2 3
+4 5 6
+7 8 9
+
+Output
+
+1 4 7
+2 5 8
+3 6 9
  
 👨‍💻 Author:-
 
