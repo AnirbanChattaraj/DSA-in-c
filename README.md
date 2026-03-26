@@ -242,6 +242,41 @@ Output
 1 4 7
 2 5 8
 3 6 9
+
+8.Matrix Multiplication in C
+📌 Description
+
+This program performs matrix multiplication of two matrices using C.
+It multiplies rows of the first matrix with columns of the second matrix to produce a new matrix.
+
+⚠️ Condition for Multiplication
+
+Matrix multiplication is only possible when:
+Number of columns of first matrix = Number of rows of second matrix
+
+⚙️ Approach
+Take input for two matrices
+Use three nested loops:
+Outer loops for result matrix position
+Inner loop for multiplication and summation
+Store result in a third matrix
+💻 Example
+Input
+
+Matrix A (2×3):
+1 2 3
+4 5 6
+
+Matrix B (3×2):
+7 8
+9 10
+11 12
+
+Output
+
+Result Matrix (2×2):
+58 64
+139 154
  
 👨‍💻 Author:-
 
