@@ -301,7 +301,18 @@ These boundaries shrink after each traversal while ensuring all elements are vis
 🛠️ Tech Stack
 Language: C
 Concepts: 2D Arrays, Loops, Boundary Traversal
- 
+Spiral Matrix II (LeetCode 59)
+📌 Overview
+
+Generates an n × n matrix filled with numbers from 1 to n² in spiral order.
+
+🧠 Approach
+Use four boundaries: minr, maxr, minc, maxc
+Fill the matrix layer by layer in clockwise direction
+Increment value after each placement
+🛠️ Tech Stack
+Language: C
+Concepts: 2D Arrays, Simulation 10.
 👨‍💻 Author:-
 
 Anirban Chattaraj
