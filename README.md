@@ -277,6 +277,30 @@ Output
 Result Matrix (2×2):
 58 64
 139 154
+
+9.Spiral Matrix Traversal in C
+📌 Overview
+
+This program prints the elements of a 2D matrix in spiral order (clockwise), starting from the top-left corner.
+
+🚀 Features
+Dynamic input for rows and columns
+Efficient boundary-based traversal
+Handles all matrix sizes
+🧠 Approach
+
+The solution uses four boundaries:
+
+minr → top row
+maxr → bottom row
+minc → left column
+maxc → right column
+
+These boundaries shrink after each traversal while ensuring all elements are visited exactly once using a counter.
+
+🛠️ Tech Stack
+Language: C
+Concepts: 2D Arrays, Loops, Boundary Traversal
  
 👨‍💻 Author:-
 
